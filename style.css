@@ -3,3 +3,8 @@ h1 {
     color: aliceblue;
     padding: 20px;
 }
+
+button.direction-btn {
+    min-width: 150px;
+    min-height: 50px;
+}
