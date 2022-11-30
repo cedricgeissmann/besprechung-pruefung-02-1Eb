@@ -22,7 +22,26 @@
 
         <svg height="500" width="500">
             <ellipse id="blubber" cx="250" cy="250"
-                rx="50" ry="40" fill="green" />
+                rx="50" ry="40" fill="green" stroke="darkgreen">
+                
+                <animate attributeName="rx"
+                    dur="2s" repeatCount="indefinite"
+                    values="50;75;50" />
+
+                <animate attributeName="ry"
+                    dur="4s" repeatCount="indefinite"
+                    values="40;40;60;40" />
+
+                <animate attributeName="fill"
+                    dur="10s" repeatCount="1"
+                    values="green;lime"
+                    fill="freeze" />
+
+                <animate attributeName="stroke-width"
+                    dur="1s" repeatCount="indefinite"
+                    values="1;7" />                
+
+            </ellipse>
         </svg>
 
     </div>
