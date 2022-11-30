@@ -8,3 +8,7 @@ button.direction-btn {
     min-width: 150px;
     min-height: 50px;
 }
+
+#main {
+    text-align: center;
+}
