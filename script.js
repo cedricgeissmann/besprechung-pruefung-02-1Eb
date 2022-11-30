@@ -25,3 +25,9 @@ function down() {
     cy = cy + 50
     blub.setAttribute("cy", cy)
 }
+
+function reset() {
+    const blub = document.querySelector("#blubber")
+    blub.setAttribute("cx", 250)
+    blub.setAttribute("cy", 250)
+}
