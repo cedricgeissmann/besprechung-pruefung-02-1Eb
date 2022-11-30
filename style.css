@@ -15,4 +15,9 @@ button.direction-btn {
 
 #main svg {
     background-color: brown;
+    margin: 0
+}
+
+body {
+    margin: 0
 }
