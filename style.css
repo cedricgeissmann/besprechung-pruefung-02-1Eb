@@ -12,3 +12,7 @@ button.direction-btn {
 #main {
     text-align: center;
 }
+
+#main svg {
+    background-color: brown;
+}
